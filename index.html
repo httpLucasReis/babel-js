@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babel</title>
+</head>
+<body>
+    <!--
+        how to install Babel?
+        1 - Create a New Project 
+          npm init
+        
+        2 - Install Babel modules
+           npm install babel-cli babel-preset-env
+
+        3 - Create a new file .babelrc
+           {
+                "presets": ["env"]
+            }
+        
+        4 - Configure package.json to run Babel
+            "scripts": {
+                "build": "babel ./main.js -o ./bundle.js -w"
+            }
+
+        5 - Run Babel
+            npm run build
+    -->
+
+
+    <script src="./bundle.js"></script>
+    <script src="./person.js"></script>
+</body>
+</html>
